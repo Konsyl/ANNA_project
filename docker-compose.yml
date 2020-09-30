@@ -1,0 +1,19 @@
+version: '2.0'
+
+services: 
+  bd:
+    image: postgres
+    restart: always
+    environment:
+        POSTGRES_DB: TasksBase
+        POSTGRES_PASSWORD: Delete11
+        POSTGRES_USER: postgres
+    ports:
+      - "5432:5432"
+  server:
+    build: 
+        context: .
+        dockerfile: django-server
+    ports:
+        - "5432:5432"
+        - "8000:8000"

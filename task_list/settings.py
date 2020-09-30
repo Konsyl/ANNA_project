@@ -56,7 +56,7 @@ DATABASES = {
         'NAME': 'TaskBase',
         'USER': 'postgres',
         'PASSWORD': 'Delete11',
-        'HOST': 'localhost',
+        'HOST': '192.168.99.100',
         'PORT': '5432',
     }
 }

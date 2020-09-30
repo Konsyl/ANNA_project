@@ -1,12 +1,9 @@
-
-
 SERVICE_WORKS = 'Service works'
 DATETIME_TEMPLATE = '%Y-%m-%dT%H:%M:%SZ'
 BAD_MESSAGE = 'BAD REQUEST'
 INVALID_CONDITION = 'invalid condition'
 COMPLETE_MESSAGE = 'Completed'
 USER_NOT_AUTH = 'user not authenticate'
-
 
 PARAM_MANY_DATA_ALLOW = 'many'
 PARAM_OUT_WITH_HISTORY = 'with_history'

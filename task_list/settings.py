@@ -6,7 +6,7 @@ SECRET_KEY = '*d0ze=6d9sij&x9e*+2*yfuy4ji*vybn0!_zyz^8un2mw3h121'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -60,7 +60,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-
+#192.168.99.100/localhost
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
